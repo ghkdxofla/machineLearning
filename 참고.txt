@@ -1,0 +1,60 @@
+1. 알고리즘 사용 설계
+
+- 하나의 알고리즘만 모두 사용해 보기
+* 다양한 방식을 사용하기
+- 같이 쓰면 좋다는 것끼리 써보기
+* 내가 생각할 때 좋아보이는 것 끼리도 써보기
+- 검색해서 괜찮다 알려진 알고리즘 사용하기
+
+2. 파이썬 코드 작성
+
+- pandas, sklearn 사용법 다시 익히기
+
+
+170914
+>> java -Xmx2048m -jar weka.jar
+이렇게 해야 힙 사이즈를 2048 로 해서 weka를 실행할 수 있다
+jupyter에서 esc를 누르면? 파란색 명령어 입력 창으로 변함
+여기서 h를 적으면? 명령어들이 나옵니다
+여기서 m을 적으면? markdown 모드로 변환!(html 같은 모드로 변합니다)
+170919
+b를 누르면? 아래에 셀을 생성
+a를 누르면? 위에 셀을 생성
+dd를 누르면? 셀을 삭제
+edit mode 에서 shift+ctrl+- => split cell
+command mode 에서 shift+m => merge cell
+?{변수} => 설명
+??{변수} => 코드
+dir({import 한 module} => 사용할 수 있는 함수가 존재한다
+.커서에서 tab 누르면 사용가능한 함수 선택가능
+함수 마지막 부분에서 shift+tab 키를 누르면 (여러 번 누르면) 다양한 정보가 나옴
+_+shift 하면 마지막 output이 나온다
+_11 => 11번째의 output 나온다
+data=sns.load_dataset('iris', engine="python") (경로에 한글이 끼는 바람에…)
+decision tree
+1.	import DecisionTreeClassifier
+2.	instance화 시킨다 (tree = DecisionTreeClassifier)
+3.	fit (tree.fit(data.data, data.target)
+4.	확인
+ctrl + / => 주석처리 해버림
+
+171116
+다음주 토, 일…..ㄴㄴ부터 헬프세션
+이메일 보내면 조교님과 약속 잡으면 됨
+방향제시
+3주동안
+기본적인 프로젝트는 IPython으로
+템플릿은 제공되는 형태로
+코딩 때문에 과제를 못한다는 일은 없다
+총 과제 해도 30줄도 안될 것
+insight가 제일 중요함
+성적은
+-	test-set 정확도
+-	prediction 속도
+-	보고서
+12월 5일보다는 빨리부터 준비를 해야 한다
+KDD
+비교분석적인 부분을 좋아하심
+어떤 알고리즘을 썼더니 어떻게 나왔구나 이런 식으로
+각 알고리즘을 다양하게 써보는 것이 중요
+

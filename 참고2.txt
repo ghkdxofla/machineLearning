@@ -1,0 +1,27 @@
+쓸 algorithm
+
+logistic regression O
+
+perception O
+
+knn O
+
+decision tree O
+
+mlp O
+
+random forest O
+
+bagging O
+
+ensemble
+- adaboost O
+
+데이터를 어떻게 가공하냐에 따라 정확도가 엄청나게 바뀐다
+
+4 5 6 12 24 25 27 32 34 35 36 37 38 39 40 41
+
+6 ~ 10
+
+12 ~ 21
+23 ~ 25
